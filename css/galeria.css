@@ -108,10 +108,102 @@ header{
 }
 
 
-
-
-
-
+.main{
+    margin: 2px 0 2px 0
+}
+.galeria{
+    font-family:'Arial Black', Gadget, sans-serif;
+    color:#23110e;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px auto auto auto
+}
+.sub-galeria{
+    font-family:'Arial Black', Gadget, sans-serif;
+    color:#582402;
+    font-size: 35px;
+    text-align: center;
+    margin: 1px auto 15px auto;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+.conteudo p{
+    margin: 0px 0 5px 0;
+    text-align: center;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 20px;
+}
+.sec_cont{
+    margin: 0 45px 15px 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.card{
+    box-sizing: border-box;
+    text-align: center;
+    width: 25%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 18px;
+    border: 3px double rgb(17, 8, 0);
+    background-color: rgb(80, 35, 0);
+    padding: 12px;
+}
+.card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 7px groove #FFD074;
+    box-sizing: border-box;
+}
+.card .p_card{
+    font-size: 16px;
+    color: #FFD074;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+}
+.barbas{
+    border-top: 1px dashed black;
+}
+.conclusao{
+    font-family:'Arial Black', Gadget, sans-serif;
+    color:#23110e;
+    font-size: 35px;
+    text-align: center;
+    margin: 1px auto 15px auto;
+    padding-bottom: 5px;
+}
+.conteiner_botao{
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.servicos{
+    width: 600px;
+    height: 50px;
+    background-color: #5c3f24;
+    border: 4px outset #65541b;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #c9a739;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.servicos:hover{
+    color: #fed653;
+    border: 6px outset #65541b;
+    width: 560px;
+    border-radius: 22px;
+}
 
 
 
