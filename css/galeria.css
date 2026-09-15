@@ -231,4 +231,15 @@ footer{
 .github{
     position: absolute;
     left: 50%;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.github img:hover{
+    transition: 0.3s;
+    margin-top: 1px;
+    width: 55px;
+    height: 55px;
+}
+.github:hover{
+    background-color: #572c23;
 }

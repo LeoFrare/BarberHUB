@@ -19,6 +19,7 @@ header{
 }
 .logotexto{
     margin-top: 0;
+    margin-left: 0;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -108,8 +109,195 @@ header{
 }
 
 
-
-
+main{
+    margin: 2px 0 2px 0;
+}
+main h1{
+    text-align: center;
+}
+.titulo_serv{
+    font-family:'Arial Black', Gadget, sans-serif;
+    color:#23110e;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px auto 0 auto;
+}
+.conteudo{
+    margin: 0 0 25px 0;
+}
+.retangulo{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.retangulo, div{
+    display: flex;
+}
+.retangulo1{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.retangulo1, div{
+    display: flex;
+}
+.img_local{
+    margin: auto 0 auto auto;
+}
+.img_barber{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-left: 7px ridge rgb(33, 25, 18);
+    border-top: 7px ridge rgb(33, 25, 18);
+    border-bottom: 7px ridge rgb(33, 25, 18);
+}
+.informacoes{
+    height: 200px;
+    width: 400px;
+    padding: auto;
+    text-align: center;
+    margin: auto 0 auto 0;
+    background-color: rgb(73, 39, 0);
+    position: relative;
+    border-top: 7px ridge rgb(33, 25, 18);
+    border-bottom: 7px ridge rgb(33, 25, 18);
+}
+.nome_barber{
+    position: absolute;
+    color:#ffeac0;
+    left: 50%;
+    width: 400px;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.go{
+    position: absolute;
+    color:#fffa6f;
+    left: 50%;
+    width: 400px;
+    top:40%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.estrelas{
+    margin: 24% auto 0 auto;
+}
+.espaco{
+    margin: 25% auto 0 auto;
+}
+.loc{
+    position: absolute;
+    left: 50%;
+    width: 400px;
+    top:87.5%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-left: 25px;
+}
+.loc a{
+    align-content: center;
+    margin: 0 0 0 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #6b4400;
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.loc a:hover{
+    color:#fffa6f;
+    border-radius: 10px;
+    background-color: #301803;
+}
+.preco{
+    height: 200px;
+    width: 400px;
+    padding: auto;
+    text-align: center;
+    margin: auto 0 auto 0;
+    background-color: rgb(117, 62, 0);
+    position: relative;
+    border-top: 7px ridge rgb(33, 25, 18);
+    border-bottom: 7px ridge rgb(33, 25, 18);
+}
+.espaçamento{
+    visibility: hidden;
+}
+.cortes_e_precos{
+    position: absolute;
+    left: 50%;
+    width: 400px;
+    top:65%;
+    color: rgb(255, 204, 136);
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-left: 25px;
+}
+.contato{
+    width: 400px;
+    height: 200px;
+    padding: auto;
+    text-align: center;
+    margin: auto auto auto 0;
+    position: relative;
+    background-color: rgb(164, 99, 25);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top: 7px ridge rgb(33, 25, 18);
+    border-bottom: 7px ridge rgb(33, 25, 18);
+    border-right: 7px ridge rgb(33, 25, 18);
+}
+.site_botao a{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    text-decoration: none;
+    font-size: 24px;
+    width: 150px;
+    height: 90px;
+    align-content: center;
+    border-radius: 20px;
+    background-color: #23110e;
+    transition: 0.3s;
+}
+.site_botao a img{
+    align-content: center;
+    margin-top: 3px;
+    width: 30%;
+    height: 50%;
+}
+.site_botao a:hover{
+    background-color: #351d19;
+}
+.site_wtt a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    font-size: 24px;
+    width: 150px;
+    height: 90px;
+    align-content: center;
+    border-radius: 20px;
+    background-color: #23110e;
+    transition: 0.3s;
+}
+.site_wtt a img{
+    align-content: center;
+    margin-top: 3px;
+    width: 30%;
+    height: 50%;
+}
+.site_wtt a:hover{
+    background-color: #351d19;
+}
 
 
 
@@ -139,4 +327,15 @@ footer{
 .github{
     position: absolute;
     left: 50%;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.github img:hover{
+    transition: 0.3s;
+    margin-top: 1px;
+    width: 55px;
+    height: 55px;
+}
+.github:hover{
+    background-color: #572c23;
 }
