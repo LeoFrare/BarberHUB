@@ -298,7 +298,31 @@ main h1{
 .site_wtt a:hover{
     background-color: #351d19;
 }
-
+.subtitulo{
+    border-top: 1px dashed black;
+    margin-top: 0px;
+    padding-top: 15px;
+    text-align: center;
+}
+.saiba_mais{
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    background-color:#d4af37;
+    border: 04px groove #332700;
+    cursor:pointer;
+    font-size: 24px;
+    font-family:'Arial Black', Gadget, sans-serif;
+    color:rgb(43, 39, 36);
+    transition: 0.3s;
+    cursor:help;
+}
+.saiba_mais:hover{
+    border: 02px groove #5e2e24;
+    font-size: 25px;
+    color:white;
+    background-color: #422500;
+}
 
 
 
