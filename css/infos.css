@@ -106,15 +106,49 @@ header{
     margin:20px;
     margin-left: 65px;
 }
-.main{
-    
+
+
+main{
+    margin: 20px;
+    justify-content: space-between;
 }
 
+.conteudo{
+    background-color: aliceblue;
+}
+.titulo_principal{
+    background-color: rgb(155, 133, 104);
+    font-size: 50px;
+    text-align: center;
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subtitulo{
+    background-color: aqua;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.bloco_texto{
+    background-color: brown;
+    width: 75%;
+    height: 400px;
+    border-radius: 30px;
+}
+.bloco_texto h2{
+    font-size: 40px;
+    margin: 5px;
+    text-align: center;
+}
+.texto1{
+    font-size: 20px;
+    margin: 19px 15px 19px 15px ;
+    background-color: chocolate;
+}
 
-
-
-
-
+.subtitulo, .bloco_texto{
+    margin:0
+}
 
 
 footer{

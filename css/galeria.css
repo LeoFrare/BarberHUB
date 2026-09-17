@@ -189,7 +189,7 @@ header{
     width: 600px;
     height: 50px;
     background-color: #5c3f24;
-    border: 4px outset #65541b;
+    border: 3px outset #65541b;
     border-radius: 50px;
     font-size: 20px;
     color: #c9a739;
@@ -200,9 +200,12 @@ header{
 }
 .servicos:hover{
     color: #fed653;
-    border: 6px outset #65541b;
+    border: 4px outset #65541b;
+    background-color: #6e4c2b;
+    font-size: 18px;
     width: 560px;
     border-radius: 22px;
+    
 }
 
 

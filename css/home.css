@@ -214,9 +214,11 @@ main{
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: 0.2s;
 }
 .botao:hover {
     background-color: #f0c84b;
+    font-size: 32px;
 }
 
 
