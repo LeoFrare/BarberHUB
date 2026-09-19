@@ -1,5 +1,3 @@
-Claro — desse jeito fica mais alinhado com a proposta do trabalho e continua curto:
-
 # 💈 BarberHUB
 
 Site estático desenvolvido para um projeto acadêmico de **Interfaces Web 1**, utilizando HTML5, CSS3 e Flexbox.
