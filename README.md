@@ -1,10 +1,19 @@
-Atividade do curso.
-Objetivo do Projeto:
-Criar um site estático utilizando HTML5 e CSS Flexbox que ajude a resolver ou minimizar um problema real da comunidade, da escola, do bairro ou de um grupo específico de pessoas.
+Claro — desse jeito fica mais alinhado com a proposta do trabalho e continua curto:
 
-Problema escolhido:
-Dificuldade para achar barbeiros de boa qualidade.
+# 💈 BarberHUB
 
-Solução:
-Um exemplo de site que pela sua localização captura todos os barbeiros próximos a você e te entrega: Nome do barbeiro, Preço e avaliação do google. Visando praticidade e rapidez na
-hora que você precisar cortar o cabelo!
+Site estático desenvolvido para um projeto acadêmico de **Interfaces Web 1**, utilizando HTML5, CSS3 e Flexbox.
+
+### 📌 O que era para fazer
+
+Criar um site que apresentasse uma solução para um problema real da comunidade, utilizando **HTML5 e CSS Flexbox**.
+
+### 📌 Problema escolhido
+
+A dificuldade de encontrar barbeiros de qualidade, saber os preços dos serviços e conhecer melhor o trabalho dos profissionais antes de escolher.
+
+### 📌 Solução
+
+O BarberHUB apresenta uma plataforma que reúne informações como **profissionais, preços, serviços, avaliações, portfólio e localização**, facilitando a pesquisa e escolha do cliente.
+
+> **Projeto acadêmico — ETEC Antônio Furlan**
